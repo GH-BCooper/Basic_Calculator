@@ -38,7 +38,9 @@ public class Calculator {
                 System.out.println("Invalid operator.");
         }
 
+        System.out.println("Calculator operation " + operation + " has been performed.");
         System.out.println("The result is: " + result);
         sc.close();
     }
 }
+
